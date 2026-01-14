@@ -25,7 +25,7 @@ function OrderTrainComponent({ item }) {
         to_city_name: appState.to_city_name,
         to_city_id: appState.to_city_id,
     });
-    const [ setLoadApp] = useState(false);
+    const [ loadApp,setLoadApp] = useState(false);
     const navigate = useNavigate();
 
     const routeState = {
@@ -77,7 +77,7 @@ function OrderTrainComponent({ item }) {
             to_city_id: selectValue.to_city_id,
         }));
         setLoadApp(false);
-    }, [newDate, selectValue, setAppState, setLoadApp]);
+    }, [newDate, selectValue, setAppState, setLoadApp, loadApp]);
 
     const departureTrain = {
         id: item.departure?._id,
