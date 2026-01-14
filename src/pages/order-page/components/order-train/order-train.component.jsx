@@ -25,7 +25,7 @@ function OrderTrainComponent({ item }) {
         to_city_name: appState.to_city_name,
         to_city_id: appState.to_city_id,
     });
-    const [loadApp, setLoadApp] = useState(false);
+    const [ setLoadApp] = useState(false);
     const navigate = useNavigate();
 
     const routeState = {
