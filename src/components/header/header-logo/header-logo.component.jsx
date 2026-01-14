@@ -8,7 +8,7 @@ function HeaderLogoComponent() {
     return (
         <div className="header-logo">
             <div className="container">
-                <Link to="/fe-diploma" className="header-logo__link" aria-label="Ссылка на главную">
+                <Link to="/" className="header-logo__link" aria-label="Ссылка на главную">
                     <span>Лого</span>
                 </Link>
             </div>

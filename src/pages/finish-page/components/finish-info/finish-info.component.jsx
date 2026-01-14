@@ -24,7 +24,7 @@ function FinishInfoComponent() {
 
     const handleHomeClick = (e) => {
         e.preventDefault();
-        navigate("/fe-diploma");
+        navigate("/");
     };
 
     return (

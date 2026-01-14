@@ -12,7 +12,7 @@ function SeatsExchangeComponent({ data }) {
 
     const handleClick = (e) => {
         e.preventDefault();
-        navigate("/fe-diploma/order");
+        navigate("/order");
     };
 
     const imageSource = data ? ArrivalImage : DepartureImage;

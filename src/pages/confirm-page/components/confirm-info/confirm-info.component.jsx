@@ -59,7 +59,7 @@ function ConfirmInfoComponent() {
                     setModal(false);
                     setAppState({});
                     setTravelState({});
-                    navigate("/fe-diploma/finish");
+                    navigate("/finish");
                 }, 1500);
             })
             .catch(() => {

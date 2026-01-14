@@ -25,7 +25,7 @@ function SeatsPageComponent() {
 
     const handleClick = (e) => {
         e.preventDefault();
-        navigate("/fe-diploma/order/passengers");
+        navigate("/order/passengers");
     };
 
     const handleModal = (value) => {

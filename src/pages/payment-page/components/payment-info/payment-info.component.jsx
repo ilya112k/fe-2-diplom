@@ -59,7 +59,7 @@ function PaymentInfoComponent() {
                     payment_method: values.paymentMethod,
                 }
             });
-            navigate("/fe-diploma/order/confirm");
+            navigate("/order/confirm");
         }
     };
 

@@ -63,7 +63,7 @@ function OrderTrainComponent({ item }) {
             departure_id: item?.departure?._id,
             arrival_id: item?.arrival?._id,
         }))
-        navigate('/fe-diploma/order/seats')
+        navigate('/order/seats')
     }
 
     useEffect(() => {

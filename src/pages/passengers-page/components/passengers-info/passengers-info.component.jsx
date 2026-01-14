@@ -27,7 +27,7 @@ function PassengersInfoComponent() {
 
     const handleClick = (e) => {
         e.preventDefault();
-        navigate("/fe-diploma/order/payment");
+        navigate("/order/payment");
     };
 
 

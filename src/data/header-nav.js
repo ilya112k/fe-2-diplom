@@ -1,18 +1,18 @@
 export const headerNav = [
     {
-        url: "/fe-diploma/#about",
+        url: "/#about",
         text: "О нас"
     },
     {
-        url: "/fe-diploma/#work",
+        url: "/#work",
         text: "Как это работает"
     },
     {
-        url: "/fe-diploma/#feedback",
+        url: "/#feedback",
         text: "Отзывы"
     },
     {
-        url: "/fe-diploma/#contacts",
+        url: "/#contacts",
         text: "Контакты"
     }
 ]

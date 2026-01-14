@@ -36,7 +36,7 @@ function HeaderWidgetComponent() {
         } else if ((cityFrom && !cityFrom.title) || (cityTo && !cityTo.title)) {
             setModal(true);
         } else {
-            navigate("/fe-diploma/order");
+            navigate("/order");
         }
     };
 
