@@ -25,7 +25,7 @@ function App() {
   const [payState, setPayState] = useState(initialPaymentState);
 
   return (
-      <BrowserRouter>
+      <BrowserRouter basename="/fe-2-diplom">
         <div className="app">
           <AppContext.Provider value={{ appState, setAppState }}>
             <TravelContext.Provider value={{ routeState, setRouteState }}>
