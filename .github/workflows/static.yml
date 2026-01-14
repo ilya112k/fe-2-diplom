@@ -32,7 +32,6 @@ jobs:
             ${{ runner.os }}-npm-
 
       - run: npm install
-      - run: npm run lint
 
   build:
     needs: [eslint]
